@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cloud4ALL Web browser</string>
+    <string name="action_settings">Settings</string>
+    <string name="init_message">Use a NFC tag near your device.</string>
+    <string name="logo_alt">Technosite login control</string>
+
+</resources>

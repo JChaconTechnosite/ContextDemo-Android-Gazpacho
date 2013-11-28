@@ -1,0 +1,60 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+	background: url('background_pattern_10.png');
+}
+
+div#container {
+	padding: 1em;
+	width: 480px;
+	margin: 0 auto; 
+	padding: 1em 10px;
+	background: white;
+}
+
+div#container h2 {
+	color: orange;
+	text-shadow: 1px 1px #999;
+}
+
+header h1 {
+	color: #438833;
+	font-family: 'Droid Serif Pro Italic Font', 'Helvetica Neue', sans-serif;
+}
+
+nav#upper_menu {
+	background: #F0F0F0;
+}
+
+nav#upper_menu  ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav#upper_menu  ul li{
+	padding: 0.8em 0.5em;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	border-right: 4px solid white;
+	color: #333;
+}
+
+nav#upper_menu  ul li.selected {
+	color: orange;
+	font-weight: bold;
+	text-shadow: 1px 1px white;
+}
+
+div.content img {
+	float: left;
+	clear: both;
+	width: 460px;
+	margin-bottom: 1em;
+}
